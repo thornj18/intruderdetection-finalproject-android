@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311886546921",
+    "firebase_url": "https://intruder-detection.firebaseio.com",
+    "project_id": "intruder-detection",
+    "storage_bucket": "intruder-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311886546921:android:f9f9b35dc67ebe76",
+        "android_client_info": {
+          "package_name": "com.finalproject.intruderdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311886546921-57te3sd2frhk6qut4kqqg5teg8np6bh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusWiyGLyDeelnfPzWFTCZs_zWZGfzPus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

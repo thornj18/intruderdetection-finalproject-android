@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/sjcet_logo" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="text"
+        android:text="admin"
+        android:hint="admin" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:text="LOGIN"
+        android:textColor="#FFF"
+        android:background="@color/colorAccent"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

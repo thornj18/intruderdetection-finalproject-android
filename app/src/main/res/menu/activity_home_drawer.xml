@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_action_ic_user_group"
+            android:title="Users" />
+        <item
+            android:id="@+id/nav_visitors"
+            android:icon="@drawable/ic_action_ic_recent_visitors"
+            android:title="Recent visitors" />
+        <item
+            android:id="@+id/nav_live"
+            android:icon="@drawable/ic_action_live_tv"
+            android:title="Live stream" />
+        <item
+            android:id="@+id/nav_lock"
+            android:icon="@drawable/ic_action_lock"
+            android:title="Lock" />
+
+        <item
+            android:id="@+id/nav_unlock"
+            android:icon="@drawable/ic_action_lock_open"
+            android:title="Unlock" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_action_notifications"
+            android:title="Notifications" />
+    </group>
+
+
+
+</menu>
